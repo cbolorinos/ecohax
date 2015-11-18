@@ -57,7 +57,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-         				 <a href="index.html">Hax</a>
+         				 <a href="index.html">Hax<span class="caret"></span></a>
         				  </li>
                     <li>
                         <a href="about.html">About</a>
@@ -93,22 +93,11 @@
             <li class="active"><a href="#" class="all">All</a></li>
             <li><a href="#" class="easy">Easy</a></li>
             <li><a href="#" class="cheap">Cheap</a></li>
-            <li><a href="#" class="transportation">Transportation</a></li>
-            <li><a href="#" class="diet">Diet</a></li>
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#" class="garden">Garden</a></li>
-            <li><a href="#" class="waste">Waste</a></li>
-            <li><a href="#" class="shopping">Shopping</a></li>
-            <li><a href="#" class="energy">Energy</a></li>
-            <li><a href="#" class="water">Water</a></li>
-            <li><a href="#" class="hygiene">Hygiene</a></li>
-            <li><a href="#" class="unorthodox">Unorthodox</a></li>
-
           </ul>
         </div>
         
         <div id="ourHolder">
-        		<div class="col-lg-3 col-md-4 col-xs-6 easy shopping home energy">
+        		<div class="col-lg-3 col-md-4 col-xs-6 easy">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/bulb.jpg" alt="">
                 </div>
@@ -117,30 +106,30 @@
                     <p>Trading an incandescent bulb for a compact fluorescent one prevents 400 pounds of greenhouse gases from being emitted.</p>
                 </div>
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap easy diet home shopping water">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap easy">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/bottle.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <a name="bottles" style="color:black;"><h3>Stop drinking bottled water</h3></a>
+                    <h3>Stop drinking bottled water</h3>
 							<p>When you drink bottled water you are contributing to fossil fuel emissions and creating waste that could take thousands of years to decompose.
-							Bottled water is not better than tap water. In fact, it comes from tap water. So you might as well put your tap water in a <a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=reusable+water+bottle">reusable water bottle</a>. If your area has particularly bad tap water, try installing a water filter. 
+							Bottled water is not better than tap water. In fact, it comes from tap water. If your area has particularly bad tap water, try installing a water filter. 
 							</p>
                 </div>
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home waste energy">
+             <div class="col-lg-3 col-md-4 col-xs-6">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/battery.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h3>Do not put your batteries in the trash</h3>
 							<p>When you throw your batteries in the trash you are 
-							releasing heavy metals and toxic chemicals into our soil and water. Getting rechargable batteries reduces this waste.
+							releasing heavy metals and toxic chemicals into our soil and water. 
 							You can find battery recycling centers at your local Whole Foods, IKEA and Walgreens. Also, you can search for local 
 							battery dispensaries on <a href=”http://www.google.com/”>Google</a> or on <a href=”http://search.earth911.com/”>Earth911</a>.</p>
                 </div>
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap easy home waste shopping">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/papertowel.jpg" alt="">
                 </div>
@@ -149,7 +138,7 @@
 						  <p>These are made of paper pulp (ultimately cut up plants) and sometimes contain bleach and/or ink, both of which can be harmful to the environment. You can either buy towels and wash them, or cut up old clothes that you don't use anymore (they will work just as well).</p>
                 </div>
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap home energy">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/airconditioner.jpg" alt="">
                 </div>
@@ -159,7 +148,7 @@
 							If you absolutely need to use it, turn it off when you leave the house, and consider putting it on a timer before you go to sleep.</p>
                 </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap home energy">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/heater.jpg" alt="">
                 </div>
@@ -169,7 +158,7 @@
 							If you absolutely need to use it, turn it off when you leave the house, and consider putting it on a timer before you go to sleep.</p>
                 </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap waste home shopping water">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/cup.jpg" alt="">
                 </div>
@@ -179,7 +168,7 @@
 						  If you buy a drink and you know they serve it in Styrofoam or Paper cups, try bringing your own cup/thermos/bottle and having them serve it in that instead.</p>
                 </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap easy home hygiene">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap easy">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/cleaning.jpg" alt="">
                 </div>
@@ -188,16 +177,16 @@
 						  <p>Cleaning products are full of toxic chemicals. They are harmful to the germs on your counter, but ultimately end up in our soil and water, where they are harmful to our <a href=”http://en.wikipedia.org/wiki/Environmental_impact_of_cleaning_agents#Potential_effects_2”>wildlife, and ultimately, ourselves</a> as well. Most household cleaning can be done with <a href=”http://www.earth911.com/living/health/cleaning-vinegar-baking-soda-lemon/”>baking soda, vinegar and lemon</a>. Stick to those. You'll help the environment, and your wallet too!</p>
                 </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 shopping waste">
+             <div class="col-lg-3 col-md-4 col-xs-6">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/plasticbags.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h3>Stop using paper and plastic bags</h3>
-						  <p>Plastic bags harm the <a href=”http://www.healthguidance.org/entry/14901/1/The-Effects-of-Plastic-Bags-on-Environment.html”>air, soil and water</a>. Paper bags are less harmful, except that they encourage deforestation and are more energy intensive to transport than plastic. <a href=”http://www.amazon.com/b?node=1252210011”>Canvas bags</a> can be used for years and don't hurt the environment. You can keep one in your trunk if you use a car, or in your purse if you don't.</p>
+						  <p>Plastic bags harm the <a href=”http://www.healthguidance.org/entry/14901/1/The-Effects-of-Plastic-Bags-on-Environment.html”>air, soil and water</a>. Paper bags are less harmful, except that they encourage deforestation and are more energy intensive to transport than plastic. Canvas bags can be used for years and don't hurt the environment. You can keep one in your trunk if you use a car, or in your purse if you don't.</p>
                 </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap water hygiene unorthodox energy home">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/shower.jpg" alt="">
                 </div>
@@ -205,7 +194,7 @@
                     <h3>Take cold showers</h3>
 						  <p>Cold showers are not only more eco-friendly than warm ones, but also have a <a href=”http://www.thehackedmind.com/7-reasons-to-take-cold-showers-and-1-that-really-matters/”> host of health benefits</a>.</p>                </div>                
              </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 cheap home energy">
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/bulb2.jpg" alt="">
                 </div>
@@ -214,88 +203,15 @@
 						  <p>This seems impossible at first, but after a couple of days it becomes instinctual.</p>   
 				    </div>
 				 </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 diet water">
+             <div class="col-lg-3 col-md-4 col-xs-6">
           		 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/meat.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <h3>Cut back on meat</h3>
-						  <p>This seems impossible until you realize how many amazing vegetarian alternatives there are. And to think you were missing out on them because you were stuck on steak!
-							Meat production is a huge consumer of fossil fuels and fresh water (<a href=”www.treehugger.com/natural-sciences/steak-n-bake-51-of-greenhouse-gas-emissions-now-come-from-meat-dairy-industry.html”>51% of global emissions</a> and <a href=”http://www.peta.org/issues/animals-used-for-food/meat-wastes-natural-resources/”>50% of the fresh water used in the USA</a>). To give you an idea, <a href=”http://www.treehugger.com/green-food/study-finds-meat-and-dairy-create-more-emissions-than-miles.html”>adding one meat-free meal per week (for a family of four) could have the same impact as driving a hybrid car</a>.</p>
+						  <p>This seems impossible until you realize how many amazing vegetarian alternatives there are. And you were missing out on them because you were stuck on steak.
+							Meat is a huge consumer of fossil fuels and fresh water(<a href=”www.treehugger.com/natural-sciences/steak-n-bake-51-of-greenhouse-gas-emissions-now-come-from-meat-dairy-industry.html”>51% of global emissions</a> and <a href=”http://www.peta.org/issues/animals-used-for-food/meat-wastes-natural-resources/”>50% of the fresh water used in the USA</a>). Considering how large the environmental impact of meat is, it really is one of the simplest ways to have a large impact. To give you an idea, <a href=”http://www.treehugger.com/green-food/study-finds-meat-and-dairy-create-more-emissions-than-miles.html”>adding one meat-free meal per week (for a family of four) could have the same impact as driving a hybrid car</a>.</p>
              </div>
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 waste shopping water">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/reusablebottle.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Buy a <a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=reusable+water+bottle">reusable water bottle</a></h3>
-              <p>This makes you less likely to buy water bottles, which are <a href="index.html#bottles">harmful to the environment</a>.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 transportation">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/bus.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Use public transportation whenever possible</h3>
-              <p>Widespread use of public transportation is the only way we can preserve our mobility without destroying our planet. Also, using it motivates your local government to invest money in improoving it. Use it whenever possible.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 transportation">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/plane.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Reduce your air travel</h3>
-              <p>Aviation is responsible for 3.5% of global emissions and is expected to <a href="http://en.wikipedia.org/wiki/Environmental_impact_of_aviation#Total_climate_effects">rise to 5% by 2050</a>. If it is possible to use a train, do so as they use <a href="http://en.wikipedia.org/wiki/Energy_efficiency_in_transportation#Trains">much less energy</a>.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home energy cheap">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/insulate.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Insulate your home</h3>
-              <p>Proper insulation can reduce your heating bill by up to 50%. It sounds daunting but it is really not expensive or difficult to do, and the inital payment will pay for itself in a couple of months. If you want to insulate your home, check out <a href="http://www.wikihow.com/Insulate-Your-Home">this wikihow</a> for useful tips.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home energy">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/energysaver.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>When buying electronics, look for this logo</h3>
-              <p>Electronics with the Energy Star stamp are generally 20-30% more efficient than other electronics.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home diet transportation">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/local.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Buy local foods</h3>
-              <p><a href="http://www.cleanmetrics.com/pages/Ch9_0923.pdf">Produce grown in North
-                America travels an average of 2,000 km from source to point of sale</a>. That's a lot of fossil fuels! Also, eating local food is healthier, as the food looses a lot of it's nutritional value while being transported, and is more likely to contain preservatives. If you don't know of a farmers market near you, you can probably find one on <a href="www.localharvest.org">Local Harvest</a>.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home energy">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/solar.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Consider going solar</h3>
-              <p>While this is expensive, the initial investment pays for itself in five years, and after 20 years you will have <a href="">saved up to $64,000</a>. Also, you will have saved approximately 100,000 pounds of C02 from being emitted into the atmosphere.</p>
-                </div>                
-             </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 home energy">
-               <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/solar.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3>Use your PC's most energy efficient settings</h3>
-              <p>Laptops, PC's and mobile devices are becoming a major energy guzzler. Be sure yours go to sleep after short periods of inactivity, and dim your screen at night (or just get <a href="https://justgetflux.com/">flux</a> to do it for you!)</p>
-                </div>                
              </div>
        </div>
                 <div class="col-lg-12 text-center">

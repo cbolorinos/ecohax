@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Christian" >
+
+    <title>Blog - Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    
+    <!-- Custom CSS for the 'Thumbnail Gallery' Template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Eco <img src="img/eco.png" width="100px"></img> Hax</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+						  <li class="dropdown">
+         				 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hax<span class="caret"></span></a>
+       					   <ul class="dropdown-menu" role="menu">
+								  <li><a href="all.html">All Hax</a></li>       					     
+       					     <li><a href="transportation.html">Transportation Hax</a></li>
+            				  <li><a href="kitchen.html">Kitchen Hax</a></li>
+        					     <li><a href="garden.html">Garden Hax</a></li>
+        					     <li><a href="bathroom.html">Bathroom Hax</a></li>
+        					     <li><a href="miscellaneous.html">Miscellaneous Hax</a></li>
+				            </ul>
+        				  </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="contribute.html">Contribute</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Transportation
+                        <strong>Hax</strong>
+                    </h2>
+                    <hr>
+                </div>
+               <div align="center">
+          <ul id="filterOptions" class="filter nav nav-tabs">
+            <li class="active"><a href="#" class="all">All</a></li>
+            <li><a href="#" class="easy">Easy</a></li>
+            <li><a href="#" class="cheap">Cheap</a></li>
+          </ul>
+        </div>
+      <hr>
+        
+        <div id="ourHolder">
+        		<div class="col-lg-3 col-md-4 col-xs-6 easy">
+          		 <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>Niggas be axin</p>
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 difficult">
+          		 <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-1.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>interior psa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 cheap">
+          		 <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-3.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>This is a public beheading. exterior</p>
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 expensive">
+          		 <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>Jah see dem interior</p>
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 easy">
+          		 <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-1.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>This is a public beheading. exterior</p>
+                </div>
+             </div>
+       </div>
+                <div class="col-lg-12 text-center">
+                    <ul class="pager">
+                        <li class="previous"><a href="#">&larr; Older</a>
+                        </li>
+                        <li class="next"><a href="#">Newer &rarr;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="quicksand/jquery.quicksand.js"></script>
+	
+  <script>
+  $(document).ready(function () {
+    $('#filterOptions li a').click(function () {
+        var ourClass = $(this).attr('class');
+        $('#filterOptions li').removeClass('active');
+        $(this).parent().addClass('active');
+
+        if (ourClass == 'all') {
+            $('#ourHolder').children().show();
+        } else {
+            $('#ourHolder').children('div:not(.' + ourClass + ')').hide();
+            $('#ourHolder').children('div.' + ourClass).show();
+        }
+
+        return false;
+    });
+});
+  </script>
+</body>
+
+</html>
